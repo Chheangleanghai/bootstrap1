@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<style>
+    .text {
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+.card-body{
+    line-height: 15px;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+  <div class="container px-5">
+    <a class="navbar-brand" href="#">
+        <img style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" src="https://i.pinimg.com/1200x/99/a3/77/99a3775873f6f5ee26591a80af292bf5.jpg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-disabled="true">contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide mx-auto mt-3" style="width: 82%;">
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+            <img src="https://i.pinimg.com/1200x/f4/ec/77/f4ec77b7e32315a6562b1862aba7782b.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://i.pinimg.com/1200x/99/a3/77/99a3775873f6f5ee26591a80af292bf5.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="https://i.pinimg.com/1200x/94/96/e2/9496e262396477d9e14d5ff190b248e7.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-lg-3 px-4 my-3">
+            <div class="img">
+                <img class="w-100 rounded-2" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+            </div>
+            <div class="img">
+                <img class="w-100 rounded-2" src="https://i.pinimg.com/736x/c4/a4/c9/c4a4c941eeb2964a595eaf5448c51fc4.jpg" alt="">
+            </div>
+            <div class="img">
+                <img class="w-100 rounded-2"  src="https://i.pinimg.com/736x/74/ed/b4/74edb475965a2fc9f4d4bbb98f34884f.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container mb-4">
+        <div class="row px-4 row-cols-2">
+            <div class="img">
+                <img style="width: 100%; height: 500px;" src="https://i.pinimg.com/736x/1f/e2/9a/1fe29a488aadd8f68d72fc3cda480034.jpg" alt="">
+            </div>
+            <div class="img">
+                <img style="width: 100%; height: 245px;" src="https://i.pinimg.com/1200x/fc/9b/36/fc9b36400dd5d1d9e56ba3fcacb4734a.jpg" alt="">
+                <img style="width: 100%; height: 245px; margin-top: 10px;" src="https://i.pinimg.com/1200x/6c/28/aa/6c28aa638948b773cdd601b7b4000aa3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-center fw-bold ">Feature Products</h1>
+
+    <div class="container mb-5">
+        <div class="row row-gap-3 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            <div class="card position-relative">
+                <img class="w-100" src="https://i.pinimg.com/736x/bd/8c/c9/bd8cc91f0dbab90de8cc3a9bfa078960.jpg" alt="">
+                <div class="card-body">
+                    <h5>Asus Gamming</h5>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis!</p>
+                    <div class="start text-warning ">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <div class="price mt-2 d-flex justify-content-between">
+                        <h4>$80.5 <sup class="text-decoration-line-through text-secondary fw-normal">$100</sup></h4>
+                        <button class="btn btn-success "><i class="bi bi-bag-plus "></i> Buy Now</button>
+                    </div>
+                    <div class="discount badge btn btn-danger position-absolute top-0 end-0 me-4 mt-2">30%</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+</body>
+<script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</html>
